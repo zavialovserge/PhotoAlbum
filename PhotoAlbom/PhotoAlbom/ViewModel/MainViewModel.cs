@@ -4,12 +4,11 @@ namespace PhotoAlbom.ViewModel
 {
     /// <summary>
     /// This class contains properties that the main View can data bind to.
-    /// 
+    /// <summary>
     public class MainViewModel : ViewModelBase
     {
         /// <summary>
-        /// Initialize for allow drop to window
-        /// Change when we double clicked on image
+        /// Initialize for allow drop in window
         /// </summary>
         private bool allowDropItem;
 

@@ -2,12 +2,13 @@
 using GalaSoft.MvvmLight.CommandWpf;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Windows;
 
 namespace PhotoAlbom.ViewModel
 {
     /// <summary>
-    /// Reprezent set of photos
+    /// Represent set of photos
     /// </summary>
     public partial class PhotoSetViewModel:ViewModelBase
     {
@@ -22,7 +23,7 @@ namespace PhotoAlbom.ViewModel
         public List<string> FormatList { get; set; }
 
         /// <summary>
-        /// Current chose Image
+        /// Chosen Image
         /// </summary>
         private Image currentImage;
 
@@ -35,11 +36,29 @@ namespace PhotoAlbom.ViewModel
                 RaisePropertyChanged();
             }
         }
+
+        private readonly BackgroundWorker worker;
         
-       
+        private int currentProgress;
+
+        public int CurrentProgress
+        {
+            get { return this.currentProgress; }
+            private set
+            {
+                if (this.currentProgress != value)
+                {
+                    this.currentProgress = value;
+                    RaisePropertyChanged();
+                }
+            }
+        }
+        private void ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            this.CurrentProgress = e.ProgressPercentage;
+        }
         /// <summary>
         /// Initialize when we need to collapsed our view
-        /// Change for double click
         /// </summary>
         private bool isVisible;
 
@@ -62,6 +81,9 @@ namespace PhotoAlbom.ViewModel
             photoDown = new RelayCommand<Image>(ChangePhotoToDown, CanPhotoDown);
             photoUp = new RelayCommand<Image>(ChangePhotoToUp, CanPhotoUp);
             escClick = new RelayCommand(BackChangeControl);
+            this.worker = new BackgroundWorker();
+            this.worker.ProgressChanged += this.ProgressChanged;
+
         }
         
         /// <summary>

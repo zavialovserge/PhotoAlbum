@@ -18,16 +18,16 @@ namespace PhotoAlbom.ViewModel
 
             SimpleIoc.Default.Register<MainViewModel>();
             SimpleIoc.Default.Register<PhotoSetViewModel>();
-            SimpleIoc.Default.Register<Image>();
+            
         }
 
         public MainViewModel Main =>  ServiceLocator.Current.GetInstance<MainViewModel>();
 
         public PhotoSetViewModel PhotoSet => ServiceLocator.Current.GetInstance<PhotoSetViewModel>();
-        public Image Image => ServiceLocator.Current.GetInstance<Image>();
+        
         public static void Cleanup()
         {
-            SimpleIoc.Default.Unregister<Image>();
+            
             
         }
     }

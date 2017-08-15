@@ -19,10 +19,7 @@
     
     <UserControl.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\Resources\Resources.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-            <conver:VisibilityConverter x:Key="VisibleConversation"/>
+           <conver:VisibilityConverter x:Key="VisibleConversation"/>
         </ResourceDictionary>
     </UserControl.Resources>
 
@@ -31,9 +28,12 @@
             <Setter Property="Visibility" Value="{Binding PhotoSet.IsVisible,Mode=OneWay,UpdateSourceTrigger=PropertyChanged,Converter={StaticResource VisibleConversation}}"/>
         </Style>
     </UserControl.Style>
-    
+
+
     <ScrollViewer DataContext="{Binding PhotoSet}"  VerticalScrollBarVisibility="Auto">
         <Grid >
+            <ProgressBar Value="{Binding PhotoSet.CurrentProgress, Mode=OneWay}" 
+                         Visibility="{Binding PhotoSetProgressVisibility}"/>
             <ItemsControl ItemsSource="{Binding ImageCollection,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" >
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>

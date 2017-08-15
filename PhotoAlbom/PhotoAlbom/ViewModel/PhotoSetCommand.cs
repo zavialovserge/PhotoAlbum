@@ -9,6 +9,8 @@ namespace PhotoAlbom.ViewModel
 {
     public partial class PhotoSetViewModel
     {
+        private ICommand ProgressBarCommand => progressBarCommand;
+        private RelayCommand progressBarCommand;
         /// <summary>
         /// Command for double click
         /// </summary>
@@ -16,31 +18,32 @@ namespace PhotoAlbom.ViewModel
         private RelayCommand<Image> doubleClick;
 
         /// <summary>
-        /// Command for double click
+        /// Command for DragNDrop
         /// </summary>
         public ICommand DragNDrop => dragNDrop;
         private RelayCommand<DragEventArgs> dragNDrop;
 
+        
+        /// <summary>
+        /// Command that change CurrectImage to DownPhoto in Collection
+        /// </summary>
+        public ICommand PhotoDown => photoDown;
+        private RelayCommand<Image> photoDown;
 
         /// <summary>
         /// Command for change Photo to Up Photo
         /// </summary>
-        public ICommand PhotoUp => photoDown;
-        private RelayCommand<Image> photoDown;
-
-        /// <summary>
-        /// Command for change Photo to Down Photo
-        /// </summary>
-        public ICommand PhotoDown => photoUp;
+        public ICommand PhotoUp => photoUp;
         private RelayCommand<Image> photoUp;
 
         /// <summary>
-        /// Command for change Photo to Down Photo
+        /// Command for escape button
         /// </summary>
         public ICommand EscClick => escClick;
         private RelayCommand escClick;
+
         /// <summary>
-        /// Photo up method
+        /// Command PhotoUp method
         /// </summary>
         /// <param name="image">CurrentImage</param>
         private void ChangePhotoToDown(Image image)
@@ -58,7 +61,7 @@ namespace PhotoAlbom.ViewModel
         {
             if (image == null)
             {
-                return true;//??
+                return false;
             }
             int index = ImageCollection.IndexOf(image);
             index++;
@@ -77,7 +80,7 @@ namespace PhotoAlbom.ViewModel
         }
 
         /// <summary>
-        /// Photo down method
+        /// Command PhotoDown method
         /// </summary>
         /// <param name="image">CurrentImage</param>
         /// <returns></returns>
@@ -102,10 +105,9 @@ namespace PhotoAlbom.ViewModel
             }
 
         }
-
-        //TODO DO IT CORRECT
+        
         /// <summary>
-        /// Validation if file is not good format?????????
+        /// Validation if file is valid format
         /// </summary>
         /// <param name="arg">drag n drop event</param>
         /// <returns></returns>
@@ -138,7 +140,7 @@ namespace PhotoAlbom.ViewModel
         /// <summary>
         /// Change control for chosen image
         /// </summary>
-        /// <param name="image"></param>
+        /// <param name="image">CurrentImage</param>
         public void ChangeControl(Image image)
         {
             CurrentImage = image;

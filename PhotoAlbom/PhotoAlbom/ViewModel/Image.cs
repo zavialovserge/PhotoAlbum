@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PhotoAlbom.ViewModel
 {
     /// <summary>
-    /// Reprezent single image
+    /// Represent single image
     /// </summary>
     public class Image
     {

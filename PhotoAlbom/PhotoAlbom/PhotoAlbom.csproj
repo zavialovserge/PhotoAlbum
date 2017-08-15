@@ -146,12 +146,14 @@
     <Folder Include="Model\Cache\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Image\if_arrow_full_up_103296 %281%29.png" />
-    <Resource Include="Resources\Image\if_arrow_full_up_103296.png" />
+    <Content Include="Resources\Image\ArrowUp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Image\if_arrow_full_down_103291 %281%29.png" />
-    <Resource Include="Resources\Image\if_arrow_full_down_103291.png" />
+    <Content Include="Resources\Image\arrowDown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

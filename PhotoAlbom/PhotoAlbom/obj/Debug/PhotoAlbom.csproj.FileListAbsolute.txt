@@ -32,3 +32,40 @@ c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\
 c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.g.resources
 c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.Properties.Resources.resources
 c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.csproj.GenerateResource.Cache
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Resources\Image\ArrowUp.png
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Resources\Image\arrowDown.png
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\PhotoAlbom.exe.config
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\PhotoAlbom.exe
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\PhotoAlbom.pdb
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.csprojResolveAssemblyReference.cache
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\MainWindow.g.cs
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\PhotoSetView.g.cs
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\SingleImageView.g.cs
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\App.g.cs
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom_Content.g.cs
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom_MarkupCompile.cache
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom_MarkupCompile.lref
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\App.baml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\Resources\Resources.baml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\MainWindow.baml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\PhotoSetView.baml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\SingleImageView.baml
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.g.resources
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.Properties.Resources.resources
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.csproj.GenerateResource.Cache
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.exe
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.pdb

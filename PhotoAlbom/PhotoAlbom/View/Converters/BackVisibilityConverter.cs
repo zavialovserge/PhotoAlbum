@@ -10,7 +10,7 @@ using System.Windows.Data;
 namespace PhotoAlbom.View.Converters
 {
     /// <summary>
-    /// Reprezent Visibility converter fo SengleImageView
+    /// Represent Visibility converter fo SengleImageView
     /// </summary>
     [ValueConversion (typeof(bool),typeof(Visibility))]
     public class BackVisibilityConverter:AbstractVisibilityConverter
