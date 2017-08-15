@@ -9,8 +9,6 @@ namespace PhotoAlbom.ViewModel
 {
     public partial class PhotoSetViewModel
     {
-        private ICommand ProgressBarCommand => progressBarCommand;
-        private RelayCommand progressBarCommand;
         /// <summary>
         /// Command for double click
         /// </summary>
@@ -99,11 +97,13 @@ namespace PhotoAlbom.ViewModel
         {
             var g = arg.Data.GetDataPresent(DataFormats.FileDrop);
             string[] files = (string[])arg.Data.GetData(DataFormats.FileDrop);
+            
             for (int i = 0; i < files.Length; i++)
             {
                 ImageCollection.Add(new Image(files[i], this));
+                
             }
-
+           
         }
         
         /// <summary>
@@ -115,8 +115,6 @@ namespace PhotoAlbom.ViewModel
         {
             var g = arg.Data.GetDataPresent(DataFormats.FileDrop);
             string[] files = (string[])arg.Data.GetData(DataFormats.FileDrop);
-            
-
             for (int i = 0; i < files.Length; i++)
             {
                 FileInfo info = new FileInfo(files[i]);

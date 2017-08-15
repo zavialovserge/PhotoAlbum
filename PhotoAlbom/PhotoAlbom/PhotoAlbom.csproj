@@ -87,10 +87,6 @@
     <Compile Include="View\SingleImageView.xaml.cs">
       <DependentUpon>SingleImageView.xaml</DependentUpon>
     </Compile>
-    <Page Include="Resources\Resources.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -143,7 +139,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\Cache\" />
+    <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Image\ArrowUp.png">

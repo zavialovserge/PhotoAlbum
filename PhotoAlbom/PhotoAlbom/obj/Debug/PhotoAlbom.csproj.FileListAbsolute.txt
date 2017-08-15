@@ -50,7 +50,6 @@ C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.csprojResolveAssemblyReference.cache
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\MainWindow.g.cs
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\PhotoSetView.g.cs
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\SingleImageView.g.cs
@@ -60,7 +59,6 @@ C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom_MarkupCompile.cache
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom_MarkupCompile.lref
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\App.baml
-C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\Resources\Resources.baml
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\MainWindow.baml
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\PhotoSetView.baml
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\View\SingleImageView.baml
@@ -69,3 +67,4 @@ C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.csproj.GenerateResource.Cache
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.exe
 C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.pdb
+C:\Users\zavia\Desktop\Тестовое задание\PhotoAlbom\PhotoAlbom\obj\Debug\PhotoAlbom.csprojResolveAssemblyReference.cache

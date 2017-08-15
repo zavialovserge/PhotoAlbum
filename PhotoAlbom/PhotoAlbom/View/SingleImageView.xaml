@@ -49,6 +49,7 @@
             </Button>
             <Button Content="BLUR" 
                     Background="Yellow"
+                     Foreground="Red"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"/>
             <Button Background="Transparent"

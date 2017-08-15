@@ -37,26 +37,8 @@ namespace PhotoAlbom.ViewModel
             }
         }
 
-        private readonly BackgroundWorker worker;
         
-        private int currentProgress;
-
-        public int CurrentProgress
-        {
-            get { return this.currentProgress; }
-            private set
-            {
-                if (this.currentProgress != value)
-                {
-                    this.currentProgress = value;
-                    RaisePropertyChanged();
-                }
-            }
-        }
-        private void ProgressChanged(object sender, ProgressChangedEventArgs e)
-        {
-            this.CurrentProgress = e.ProgressPercentage;
-        }
+        
         /// <summary>
         /// Initialize when we need to collapsed our view
         /// </summary>
@@ -81,11 +63,11 @@ namespace PhotoAlbom.ViewModel
             photoDown = new RelayCommand<Image>(ChangePhotoToDown, CanPhotoDown);
             photoUp = new RelayCommand<Image>(ChangePhotoToUp, CanPhotoUp);
             escClick = new RelayCommand(BackChangeControl);
-            this.worker = new BackgroundWorker();
-            this.worker.ProgressChanged += this.ProgressChanged;
-
+            
         }
-        
+
+       
+
         /// <summary>
         /// Getting list of Windows Photo Viewer
         /// </summary>
