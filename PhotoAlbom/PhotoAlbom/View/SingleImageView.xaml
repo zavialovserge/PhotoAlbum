@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="PhotoAlbom.View.SingleImageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PhotoAlbom.View"
+             xmlns:conver="clr-namespace:PhotoAlbom.View.Converters"
+             mc:Ignorable="d" 
+
+             Background="Transparent"
+             xmlns:vm="clr-namespace:PhotoAlbom.ViewModel"
+            >
+    <UserControl.DataContext>
+        <vm:ViewModelLocator/>
+    </UserControl.DataContext>
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\Resources\Resources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <conver:BackVisibilityConverter x:Key="backVisibleConversation"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <UserControl.Style>
+        <Style TargetType="UserControl">
+            <Setter Property="Visibility" Value="{Binding PhotoSet.IsVisible,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,Converter={StaticResource backVisibleConversation}}"/>
+        </Style>
+    </UserControl.Style>
+    <Grid DataContext="{Binding PhotoSet.CurrentImage}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.25*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="{Binding Path}" />
+        <StackPanel Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Button Background="Transparent" Command="{Binding parent.PhotoUp}" CommandParameter="{Binding}">
+                <Button.Content>
+                    <Image Source="c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\Resources\Image\if_arrow_full_up_103296.png"/>
+                </Button.Content>
+               
+            </Button>
+            <Button Content="BLUR" Background="Yellow"/>
+            <Button Background="Transparent" Command="{Binding parent.PhotoDown}" CommandParameter="{Binding}">
+                <Button.Content>
+                    <Image Source="c:\users\qix07414f2\documents\visual studio 2015\Projects\PhotoAlbom\PhotoAlbom\Resources\Image\if_arrow_full_down_103291.png"/>
+                </Button.Content>
+                
+            </Button>
+        </StackPanel>
+    </Grid>
+
+   
+</UserControl>
